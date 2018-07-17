@@ -6,5 +6,8 @@ class MyApp < Sinatra::Base
     "Welcome to the maniacs"
   end
 
+  get "/video" do
+    "this is page 2"
+  end
 
 end
