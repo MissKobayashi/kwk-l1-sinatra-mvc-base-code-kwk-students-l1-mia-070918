@@ -11,6 +11,7 @@ class MyApp < Sinatra::Base
   end
   
   get "/folder" do
-    return erb
+    return erb:index
+  end
 
 end
