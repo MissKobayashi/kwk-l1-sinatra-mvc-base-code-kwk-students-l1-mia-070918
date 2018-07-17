@@ -7,5 +7,5 @@ class MyApp < Sinatra::Base
   end
 
   post "/" do
-    return erb :resuts
+    return erb :results
 end
