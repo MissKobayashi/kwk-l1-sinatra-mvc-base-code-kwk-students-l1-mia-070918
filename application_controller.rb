@@ -3,7 +3,9 @@ Bundler.require
 
 class MyApp < Sinatra::Base
   get "/" do
-    return erb:index
+    return erb :index
   end
 
+  post "/" do
+    return erb :resuts
 end
