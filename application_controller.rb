@@ -9,4 +9,5 @@ class MyApp < Sinatra::Base
   post "/" do
     @name = params[:user]
     return erb :results
+  end
 end
