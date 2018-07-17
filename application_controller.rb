@@ -9,5 +9,8 @@ class MyApp < Sinatra::Base
   get "/video" do
     "this is page 2"
   end
+  
+  get "/folder" do
+    return erb
 
 end
