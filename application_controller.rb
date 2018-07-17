@@ -6,9 +6,4 @@ class MyApp < Sinatra::Base
     return erb:index
   end
 
-  
-
-
-
-
 end
