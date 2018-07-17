@@ -8,6 +8,7 @@ class MyApp < Sinatra::Base
 
   post "/" do
     @name = params[:user]
+    @fortune = get_
     return erb :results
   end
 end
