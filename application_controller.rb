@@ -3,7 +3,7 @@ Bundler.require
 
 class MyApp < Sinatra::Base
   get "/" do
-    "Welcome to the Cococoders"
+    "Welcome to the maniacs"
   end
 
 
